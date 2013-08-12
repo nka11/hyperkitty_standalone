@@ -98,6 +98,7 @@ SECRET_KEY = 'dtc3%x(k#mzpe32dmhtsb6!3p(izk84f7nuw1-+4x8zsxwsa^z'
 
 # List of callables that know how to import templates from various sources.
 TEMPLATE_LOADERS = (
+    'hyperkitty.plugins.Loader',
     'django.template.loaders.filesystem.Loader',
     'django.template.loaders.app_directories.Loader',
 #     'django.template.loaders.eggs.Loader',
