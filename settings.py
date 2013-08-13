@@ -262,8 +262,10 @@ LOGGING = {
 # HyperKitty-specific
 #
 
-APP_NAME = 'List Archives'
-
+APP_NAME = 'Parti Pirate'
+HYPERKITTY_PLUGINS = (
+    'hyperkitty.plugins.vote',
+)
 # Allow authentication with the internal user database?
 # By default, only a login through Persona or your email provider is allowed.
 USE_INTERNAL_AUTH = False
