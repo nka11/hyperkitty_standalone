@@ -163,6 +163,7 @@ INSTALLED_APPS = (
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
     'hyperkitty',
+    'hyperkitty.plugins.vote',
     'social_auth',
     'rest_framework',
     'django_gravatar',
