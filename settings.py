@@ -162,8 +162,9 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
-    'hyperkitty',
     'hyperkitty.plugins.vote',
+    'hyperkitty.plugins.lastview',
+    'hyperkitty',
     'social_auth',
     'rest_framework',
     'django_gravatar',
@@ -265,6 +266,7 @@ LOGGING = {
 APP_NAME = 'Parti Pirate'
 HYPERKITTY_PLUGINS = (
     'hyperkitty.plugins.vote',
+    'hyperkitty.plugins.lastview',
 )
 # Allow authentication with the internal user database?
 # By default, only a login through Persona or your email provider is allowed.
